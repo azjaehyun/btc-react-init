@@ -1,5 +1,6 @@
 
 import React  from 'react';
+import Button from '@mui/material/Button';
 
 
 type PropsSampleProps = {
@@ -12,6 +13,8 @@ function PropsSample({name, mark}:PropsSampleProps) {
     return(
         <div>
             Hello ! {name} {mark}
+            <Button variant="text">button</Button>
+            <Button variant="contained">Contained</Button>
         </div>
     )
 }
