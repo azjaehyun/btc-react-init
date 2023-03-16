@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TodoListMain from './component/todoList/index';
 import AxiosListMain from './component/axiosTodoList/index';
 function App() {
   return (
