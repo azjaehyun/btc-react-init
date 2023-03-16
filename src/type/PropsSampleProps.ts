@@ -3,4 +3,3 @@ export interface PropsSampleProps {
   userAge: number;
   isShowTempComponent: boolean;
 }
-

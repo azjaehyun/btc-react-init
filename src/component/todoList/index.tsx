@@ -1,8 +1,13 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from 'react';
 import TodoTemplate from './TodoTemplate';
 import TodoInsert from './TodoInsert';
 import TodoList from './TodoList';
+import axios from 'axios';
 const TodoListMain = () => {
+  // useEffect(() => {
+  //   axios.get('https://jsonplaceholder.typicode.com/posts').then(response => console.log(response));
+  // }, []);
+
   const [todos, setTodos] = useState([
     {
       id: 1,
