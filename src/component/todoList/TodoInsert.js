@@ -17,19 +17,13 @@ const TodoInsert = ({ onInsert }) => {
       // 이를 방지하기 위하여 이 함수를 호출합니다.
       e.preventDefault();
     },
-    [onInsert, value],
+    [onInsert, value]
   );
 
   return (
     <form className="TodoInsert" onSubmit={onSubmit}>
-      <input
-        placeholder="할 일을 입력하세요"
-        value={value}
-        onChange={onChange}
-      />
-      <button type="submit">
-        {/* <MdAdd /> */}
-      </button>
+      <input placeholder="할 일을 입력하세요" value={value} onChange={onChange} />
+      <button type="submit">{/* <MdAdd /> */}</button>
     </form>
   );
 };

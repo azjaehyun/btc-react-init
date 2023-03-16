@@ -1,9 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import PropsSample from './component/propsSample';
-import LifecycleFunctionComponent from './component/LifecycleFunctionComponent';
-import LifecycleFunctionComponentEffect from './component/LifecycleFunctionComponentEffect';
 import TodoListMain from './component/todoList/index';
 function App() {
   return (
@@ -21,14 +18,8 @@ function App() {
         >
           Learn React
         </a> */}
-        <PropsSample name="hi" />
         <TodoListMain />
-        
-        <LifecycleFunctionComponent />
-        <LifecycleFunctionComponentEffect  />
-
       </header>
-      
     </div>
   );
 }
